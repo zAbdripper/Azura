@@ -1,15 +1,13 @@
-# WalksyCrystalOptimizer
-+ Allows for faster crystal placement
-+ Do NOT use my antiCrystalRefresh mod with this as it causes crystals to decrease TOO much
+# Skligga Hack
 
-![meowbah-meowbahh](https://github.com/Walksy/WalksyCrystalOptimizer/assets/69202220/00cf00a2-757c-471e-bad6-4ed8620c01e4)
+## About
 
+Read more about this client at [here](https://docs.google.com/document/d/1YmSodILxRPrnxpo692UZQwUI40zGr39NMjqUZmA6UEA).
 
-<p align="left">
-	<img width=331 src="github/Review12.png" /> 
-	<img width=331 src="github/Review2.png" />
-</p>
+## Setup
 
+Use IntelliJ as your IDE. The building process should start automatically. Read Fabric wiki if there is any problem.
 
+## License
 
-  
+This project is licensed under the MIT License.

@@ -1,32 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "walksycrystaloptimizer",
-  "version": "${version}",
+  "id": "skliggahack",
+  "version": "0.1.0",
 
-  "name": "Walksy Optimizer",
-  "description": "Allows you to place crystals much faster",
+  "name": "Skligga Hack",
+  "description": "SKLIGGAS ON TOP EZZZZZZZZ",
   "authors": [
-    "Walksy"
+    "anker"
   ],
   "contact": {
-    "homepage": "https://github.com/Walksy"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/femhack/Skligga-Hack/"
   },
 
-  "license": "MIT",
-  "icon": "assets/optimizer/icon.png",
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
 
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "walksy.optimizer.WalksyCrystalOptimizerMod"
+    "main": [
+      "net.skliggahack.Main"
     ]
   },
-
   "mixins": [
-    "crystaloptimizer.mixins.json"
+    "skliggahack.mixins.json"
   ],
 
   "depends": {
-    "midnightlib": "*"
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
   }
 }
